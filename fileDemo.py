@@ -4,6 +4,9 @@
 
 file = open('engmix.txt')
 
+numWords = 0
 for line in file:
-    print(line)
-    break
+    if 'tso' in line:
+        print(line.strip())
+    numWords+=1
+print(numWords)
