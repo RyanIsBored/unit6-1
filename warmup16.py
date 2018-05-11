@@ -8,3 +8,4 @@ for line in file:
     line=line.strip()
     if len(line)>0 and line[0]=='r' and line[-1]=='j':
         print(line)
+
