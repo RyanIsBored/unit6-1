@@ -14,7 +14,7 @@ if not inD:
     print('no')
     
   
-    
+-----    
 
 file = open('engmix.txt')
 num = int(input('enter a number: ')
@@ -28,10 +28,18 @@ for line in file:
 print(L[num-1])
 
 
+
+-----
+
+
+
 file = open('lastWordDemo.py')
 
 for line in file:
     print(line.strip()+ ('!')
+
+
+-----
 
 
 
