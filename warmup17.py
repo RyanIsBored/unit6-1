@@ -4,6 +4,6 @@
 file = open('engmix.txt')
 
 for line in file:
-    if 'jones' in line:
+    if 'j' in line and 'o' in line and 'n' in line and 'e' in line and 's' in line:
         print(line.strip())
     
