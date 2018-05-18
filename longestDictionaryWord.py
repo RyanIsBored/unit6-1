@@ -4,8 +4,8 @@
 file = open('engmix.txt')
 
 longest = ''
-for line in file:
-    words = line.split()
+for words in file:
+    word = words.split(' ')
     if len(words)>len(longest):
         longest = words
 print(longest)
