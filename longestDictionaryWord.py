@@ -3,7 +3,9 @@
 
 file = open('engmix.txt')
 
+longest = ''
 for line in file:
     words = line.split()
-    mostchar = words.count(2)
-print(mostchar)
+    if len(words)>len(longest):
+        longest = words
+print(longest)
