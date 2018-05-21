@@ -34,13 +34,12 @@ for word in file:
 '''
 
 #program #2
-
+'''
 test = input('enter a letter: ')
 for word in file:
     if len(word.strip())>=9:
         if word.strip()[0]==test and word.strip()[4]==test and word.strip()[8]==test:
             print(word.strip())
             break
-
-
+'''
 
