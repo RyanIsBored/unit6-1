@@ -23,9 +23,24 @@ for word in file:
         print(word.strip())
 '''        
 
+#program #4
+'''
 wcount = 0
 for word in file:
     if len(word.strip())>=10:
         wcount+=1
     if wcount==8000:
         print(word.strip())
+'''
+
+#program #2
+
+test = input('enter a letter: ')
+for word in file:
+    if len(word.strip())>=9:
+        if word.strip()[0]==test and word.strip()[4]==test and word.strip()[8]==test:
+            print(word.strip())
+            break
+
+
+
