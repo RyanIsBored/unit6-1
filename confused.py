@@ -9,6 +9,20 @@ for word in file:
         break
 '''
 
+
+
+'''
 for word in file:
     if word.count('q')==2:
         print(word.strip())
+        
+'''
+
+'''
+wcount = 0
+for word in file:
+    if word.strip() !='' and word[0]=='w':
+        wcount+=1
+print(wcount)
+'''
+
